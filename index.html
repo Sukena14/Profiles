@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+     <!-- Created by Sukena Abbas on December 03, 2024 -->
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=League+Gothic&family=Lexend:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+  
+      /* Basic Styles */
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Montserrat", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+      table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 70%;
+            background-color: #111;
+            color: #ddd;
+            border: 1px solid #444;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            font-family: 'Outfit', sans-serif;
+        }
+
+        th, td {
+            border: 1px solid #444;
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #222;
+        }
+
+        td a {
+            color: #0d6efd;
+            text-decoration: none;
+        }
+
+        td a:hover {
+            text-decoration: underline;
+        }
+      
+      
+      
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #222;
+            display: flex;
+            justify-content: center;
+            gap: 0px;
+            padding: 15px 0;
+            z-index: 1000;
+        }
+
+        .top-nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 1.2rem;
+            font-family: 'Lexend', sans-serif;
+        }
+
+        .top-nav a:hover {
+            background-color: #555;
+        }
+
+      /* Smooth scrolling for page */
+        html {
+            scroll-behavior: smooth;
+        }
+      
+        .header {
+            text-align: center;
+            padding: 130px 40px;
+            background-image: url('IMG_8536.JPG'); 
+            background-size: cover; 
+            background-position: center; /
+            background-repeat: no-repeat; 
+            color: #fff; 
+        }
+
+        .text-box {
+          background-color: rgba(0, 0, 0, 0.7); /* Black rectangle with transparency */
+          display: inline-block;
+          padding: 0px 20px; 
+          border-radius: 4px; 
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); 
+}
+      
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            font-family:'Lexend', sans-serif;
+
+          
+        }
+
+        .header p {
+            font-size: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            font-family: 'Caveat', cursive;
+
+        }
+
+        .content {
+            background-color: black;
+            padding: 60px 20px;
+        }
+
+        .section {
+            width: 100%;
+            margin-bottom: 80px;
+            padding: 40px 20px;
+            border: 1px solid #333;
+            border-radius: 10px;
+            background-color: #111;
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            color: #ddd;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: 'Lexend', sans-serif;
+        }
+
+        .section p {
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .grid img {
+            width: calc(33.33% - 20px);
+            height: auto;
+            border-radius: 10px;
+        }
+
+      
+      
+      
+        .form-group {
+            margin-bottom: 20px;
+            width: 100%;
+
+        }
+
+        .form-group input {
+            width: 95%;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .form-group button {
+           width: 100%;
+            background-color: #555;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-family: 'Outfit', sans-serif;
+          
+        }
+
+        .form-group button:hover {
+            background-color: #777;
+        }
+      
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="top-nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#hobbies">HOBBIES</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <header id="home" class="header">
+    <div class="text-container">
+       <div class="text-box">
+         <div id="home">
+        <h1>SUKENA ABBAS</h1>
+        <p>A Pro - Photographer</p>
+           </div>
+         </div>
+    </div>
+</header>
+
+
+    <main class="content">
+        <!-- About Section -->
+        <div id="about" class="section">
+            <h2>ABOUT ME!</h2>
+      <p>Hi! I’m Sukena Abbas, a second-year student in the Global Business and Digital Arts (GBDA) program at the University of Waterloo. I'm passionate about combining creativity with technology to build meaningful user experiences and am working towards launching my own design firm someday. With a strong interest in digital media and design, I’m always exploring new tools and ideas to expand my knowledge. I'm excited to connect with others who share similar interests or have a passion for design and innovation!  Thanks for stopping by my site—I look forward to connecting!</p>
+           <div class="grid">
+            <img src="IMG_4421 (1).JPG" alt="Sunset Me" >
+          <img src="IMG_6601.JPG" alt="Stratford Building" >
+            <img src="IMG_9510.jpg" alt="Sunset Me" > 
+       
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>MY PROJECTS!</h2>
+          <p>
+            The photographs below are a selection of my work, showcasing various themes and subjects that have caught my eye—from landscapes and cityscapes to everyday moments that tell a story. I hope you enjoy exploring my photography as much as I enjoyed creating it!
+
+Scroll down to view my collection.
+          </p>
+          
+            <div class="grid">
+                <img src="IMG_8537.JPG" alt="Photo 1/Flower">
+                <img src="IMG_6144.JPG" alt="Photo 2/Clouds">     
+               <img src="IMG_4429 (1).JPG" alt="Photo3/Sun">
+              <img src="IMG_8547.jpg" alt="Photo 4/City">
+              <img src="IMG_6124.jpg" alt="Photo 5/Nature">
+              <img src="IMG_0471.JPG" alt="Photo 6/CN Tower">
+            </div>
+        </section>
+
+          <!-- Hobbies Section -->
+<section id="hobbies" class="section">
+    <h2>MY HOBBIES!</h2>
+  <p>
+    Watching Dramas!
+  </p>
+    <p>One of my favorite ways to relax and unwind is by watching dramas. Whether it's Bollywood, Hollywood, Turkish, or Pakistani dramas, there's always something exciting to watch. Among all, Pakistani dramas hold a special place for me. The storytelling, the emotions, and the cultural richness they bring are truly captivating. I enjoy how they tackle real-life themes and present complex characters that feel authentic. From heartfelt family sagas to intense romances, these shows have a depth that keeps me coming back for more. My Top Three are Jafaa, Parizaad and Jaan e Jahan.</p>
+  <p>
+            Check out <a href="https://www.hum.tv/" target="_blank" class="humtv-link">Hum TV</a> for some amazing Pakistani dramas! 
+
+  </p>
+  <div class="grid">
+          
+            <img src="jafaa.jpeg" alt="Jafaa">
+     
+             <img src="Parizaad-810x627.jpg" alt="Parizaad">
+           
+            <img src="Jaan-E-Jahaan-4-1024x505-1.jpg" alt="Jaan E Jahan">
+           </div> 
+</section>
+          
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Me!</h2>
+            <table>
+            <tr>
+                <th>Contact Detail</th>
+                <th>Information</th>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><a href="mailto:sabbas@uwaterloo.ca">sabbas@uwaterloo.ca</a></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>437-234-2738</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Cambridge, CA</td>
+            </tr>
+        </table>
+          
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Message" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+              
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+  
+  Copy<!--
+Code copied from: [https://w3schools.com/howto/tryit.asp?filename=tryw3css_templates_dark_portfolio&stacked=h]
+Author: [W3Schools]
+Name: [I'm John Doe.]
+Description: [I copied the Contact section text from this site, the fill in the blanks section and send message.]
+Date retrieved: [December 05, 2023]
+-->
